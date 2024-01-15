@@ -1,0 +1,85 @@
+/*
+remove defaults 
+ */
+h4{
+    display: inline-block;
+}
+img{
+    display: inline-block;
+}
+/* 
+ */
+
+body{
+    background-image: url(/assets/images/background-pattern-desktop.svg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color: hsl(275, 100%, 97%) ;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#main{
+    background: white;
+    width: 37%;
+    height: 60%;
+    border-radius: 14px;
+    padding: 1.5rem;
+}
+
+.question{
+    border-bottom:1px solid rgb(227, 227, 227);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    display: inline-block;
+    font-size: 50px;
+}
+#faqs-header{
+    display: flex;
+    align-items: center;
+}
+
+#faqs-header > img{
+    padding-right: 17px;
+}
+
+
+.answer-para{
+    color:hsl(292, 16%, 49%) ;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* 
+hidden text
+ */
+ 
+.answer-para{
+    display: none;
+}
+
+.show-text .answer-para{
+    display: block;
+}
+
+.minus-icon {
+    display: none;
+}
+
+.show-text .minus-icon {
+    display: inline;
+}
+
+.show-text .toggle-btn {
+    display: none;
+}
+
+
+
